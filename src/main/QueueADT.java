@@ -41,7 +41,10 @@ public class QueueADT
 
 	boolean isFull()
 	{
-		return false;
+        if( rear+1 == size)
+		return true;
+        else
+        return false;
 	}
 
 }
