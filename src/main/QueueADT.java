@@ -2,7 +2,6 @@ package main;
 
 public class QueueADT
 {
-
 	int[] queue = new int[10];
 	int front = -1;
 	int rear = -1;
